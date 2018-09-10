@@ -9,6 +9,8 @@ def loop_iterator(number_of_times)
   # Maybe we should keep count of the number of times we've puts out the
   #  phrase and break when the counter hits the appropriate number...
   phrase = "Welcome to Flatiron School's Web Development Course!"
+  loop 7.times
+  put phrase
 
 end
 
@@ -40,7 +42,6 @@ end
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-
   phrase = "Welcome to Flatiron School's Web Development Course!"
 
 end
